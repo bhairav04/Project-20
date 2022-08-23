@@ -51,7 +51,7 @@ function draw() {
   boy.collide(edges);
   
   //code to reset the background
-    if(path.y > height){
+    if(path.y > 600){
     path.y = height/2;
     }
     createCash();
